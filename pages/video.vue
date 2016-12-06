@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="my-container">
     <el-row type="flex" justify="center" align="middle" class="main-title">
       <img src="~static/vimeo_32.png" alt="Nuxt.js Logo" /><span class="my-title">ideo</span>
     </el-row>
@@ -88,15 +88,37 @@ body {
 .video-area {
   overflow: hidden;
   margin: 0 auto;
-  width: 800px;
+  width: 95%;
 }
 .video-iframe {
   height: 500px;
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   frameborder: 0;
   marginheight: 0px;
   marginwidth: 0px;
   background: #1F2D3D;
   border: 2px solid #99A9BF;
+}
+.my-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .my-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .my-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .my-container {
+    width: 1170px;
+  }
 }
 </style>
