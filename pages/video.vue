@@ -88,10 +88,11 @@ body {
 .video-area {
   overflow: hidden;
   margin: 0 auto;
-  width: 95%;
+  width: 98%;
 }
 .video-iframe {
-  height: 500px;
+  min-height: 300px;
+  max-height: 500px;
   width: 100%;
   max-width: 800px;
   frameborder: 0;
@@ -110,15 +111,24 @@ body {
   .my-container {
     width: 750px;
   }
+  .video-iframe {
+    height: 300px;
+  }
 }
 @media (min-width: 992px) {
   .my-container {
     width: 970px;
   }
+  .video-iframe {
+    height: 500px;
+  }
 }
 @media (min-width: 1200px) {
   .my-container {
     width: 1170px;
+  }
+  .video-iframe {
+    height: 500px;
   }
 }
 </style>
