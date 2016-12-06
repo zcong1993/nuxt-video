@@ -22,9 +22,6 @@
        <iframe class="video-iframe" id="videoIframe" :src = "fullLink">
        </iframe>
     </el-row>
-<!--     <router-link class="button" to="/">
-      Go back
-    </router-link> -->
   </div>
 </template>
 
