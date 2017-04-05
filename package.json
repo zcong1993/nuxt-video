@@ -1,19 +1,18 @@
 {
-  "name": "video",
-  "version": "1.0.0",
-  "description": "Nuxt.js project",
-  "author": "zcong1993 <1005997919@qq.com>",
-  "private": true,
-  "dependencies": {
-    "nuxt": "latest"
+  "name": "nuxt-video",
+  "version": "0.0.1",
+  "description": "my awesome project",
+  "repository": {
+    "url": "zcong1993/nuxt-video",
+    "type": "git"
   },
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "vbuild -dc --eslint",
+    "build": "vbuild -c"
   },
-  "devDependencies": {
-    "element-ui": "^1.0.4"
+  "author": "zcong1993 <1005997919@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.2.2"
   }
 }
