@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "vbuild -dc --eslint --port 3000",
-    "build": "vbuild -c"
+    "build": "vbuild -c",
+    "serve": "surge -p dist"
   },
   "author": "zcong1993 <1005997919@qq.com>",
   "license": "MIT",
