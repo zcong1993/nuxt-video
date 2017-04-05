@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+purecss@^0.6.2:
+  version "0.6.2"
+  resolved "http://registry.npm.taobao.org/purecss/download/purecss-0.6.2.tgz#f0827d227e909543c5138f36d56c8c613f476b8c"
+
 vue@^2.2.2:
   version "2.2.6"
   resolved "http://registry.npm.taobao.org/vue/download/vue-2.2.6.tgz#451714b394dd6d4eae7b773c40c2034a59621aed"

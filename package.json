@@ -13,6 +13,7 @@
   "author": "zcong1993 <1005997919@qq.com>",
   "license": "MIT",
   "dependencies": {
+    "purecss": "^0.6.2",
     "vue": "^2.2.2"
   }
 }
