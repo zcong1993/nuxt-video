@@ -7,7 +7,7 @@
     "type": "git"
   },
   "scripts": {
-    "dev": "vbuild -dc --eslint",
+    "dev": "vbuild -dc --eslint --port 3000",
     "build": "vbuild -c"
   },
   "author": "zcong1993 <1005997919@qq.com>",
