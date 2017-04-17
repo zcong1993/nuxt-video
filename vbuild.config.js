@@ -1,6 +1,3 @@
 module.exports = options => ({
-  entry: 'src/index.js',
-  webpack(config) {
-    return config
-  }
+  entry: 'src/index.js'
 })
