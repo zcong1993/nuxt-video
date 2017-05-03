@@ -7,9 +7,10 @@
     "type": "git"
   },
   "scripts": {
-    "dev": "vbuild dev --port 3000",
-    "build": "vbuild",
-    "serve": "surge -p dist"
+    "dev": "poi --port 3000",
+    "build": "poi build",
+    "serve": "surge -p dist",
+    "serve:build": "npm run build && npm run serve"
   },
   "author": "zcong1993 <1005997919@qq.com>",
   "license": "MIT",
